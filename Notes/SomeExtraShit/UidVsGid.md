@@ -2,7 +2,7 @@
 
 - The root user and group are usually given uid and gid 0. The IDs form 1-99 are also reserved for use by other system accounts.
 
-- What happens after 99 tends to vary by operating system. For example, some flavors of Unix reserve 100-499 for dynamic system allocation ( e.g. if a package you install needs a uid/gid) and begin allocating standard user accounts uid and gid numbers at 500.
+- What happens after 99 tends to vary by operating system. For example, some flavours of Unix reserve 100-499 for dynamic system allocation ( e.g. if a package you install needs a uid/gid) and begin allocating standard user accounts uid and gid numbers at 500.
 
 - Other systems, reserve 100-999 for dynamic system allocation and start standard user accounts from 1,000 and up.
 
